@@ -10,7 +10,7 @@ Automatically types text in [Nitro Type](https://www.nitrotype.com). Using a sim
 
 2. Simple on the outside. Sandbox is incredibly easy to use, with a simple graphical interface.
 
-3. Complicated on the inside. Sandbox has many amazing features that have been programmed with maximum efficency.
+3. Advanced on the inside. Sandbox has many amazing features that have been programmed with maximum efficency.
 
 ![](header.png)
 
