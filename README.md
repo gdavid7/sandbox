@@ -4,6 +4,14 @@
 
 Automatically types text in [Nitro Type](https://www.nitrotype.com). Using a simple graphical interface, you are able to specify speed, accuracy, amount of races and more!
 
+## Differences from other bots:
+
+1. Undetectable. Sandbox is full of random variables and Nitro Type will not be able to detect that it is a program completing your race.
+
+2. Simple on the outside. Sandbox is incredibly easy to use, with a simple graphical interface.
+
+3. Complicated on the inside. Sandbox has many amazing features that have been programmed with maximum efficency.
+
 ![](header.png)
 
 ## Resources Used
@@ -21,15 +29,14 @@ PySimpleGUI
 
 Windows:
 
-```sh
-Just download the sandbox.exe file and open it up!
-```
+Step 1: Download Firefox: https://www.mozilla.org/
 
+Step 2: Download Sandbox and run the program.
 ## Usage example
 
 When you open the program up, a graphical interface will appear.
 
-![Image of graphical](https://i.ibb.co/PNNMg0m/Capture.png)
+![Image of graphical](https://github.com/gdavid7/sandbox/blob/master/pictures/Screenshot.png)
 
 Username: Your account username
 
@@ -41,6 +48,6 @@ Speed: How fast you want the bot to type (in Words Per Minute)
 
 Accuracy: How accurate you want the bot to be (percentage)
 
-Nitros: (True or False) True = Use Nitros, False = Dont use nitros.
+Nitros: (True / False / Random) True = Use Nitros, False = Dont use nitros, Random = Random chance that you will use Nitros.
 
-Hack Mode: (True or False). Hack mode will automatically shorten the typing text to complete races much faster. Setting True will enable Hack Mode.
+If you use Nitros, the bot will automatically use the Nitro on the biggest word.
