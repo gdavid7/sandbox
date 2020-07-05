@@ -1,5 +1,5 @@
 
-# sandbox
+![Image of graphical](https://github.com/gdavid7/sandbox/blob/master/pictures/Sandbox%20LOGO.jpg)
 > Program for automated typing.
 
 Automatically types text in [Nitro Type](https://www.nitrotype.com). Using a simple graphical interface, you are able to specify speed, accuracy, amount of races and more!
