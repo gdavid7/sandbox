@@ -5,7 +5,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 from bs4 import BeautifulSoup
 import random
-import requests
 import PySimpleGUI as sg
 import os
 import sys
