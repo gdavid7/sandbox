@@ -4,6 +4,8 @@
 
 Automatically types text in [Nitro Type](https://www.nitrotype.com). Using a simple graphical interface, you are able to specify speed, accuracy, amount of races and more!
 
+See the video: https://www.youtube.com/watch?v=ck0v1mN2MCA
+
 ## Differences from other bots:
 
 1. Undetectable. Sandbox is full of random variables and Nitro Type will not be able to detect that it is a program completing your race.
