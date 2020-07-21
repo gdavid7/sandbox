@@ -1,0 +1,434 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #1e2124;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+    color: none;
+    background: none;
+}
+
+div.title
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -80px;
+  font-family: helvetica;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 3em;
+  color: #ff9a00;
+}
+
+div.credits
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -75px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .85em;
+  color: #b6b6b6;
+}
+
+div.divider
+{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100;
+}
+
+div.authentication
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: -45%;
+  margin-top: -5px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+div.divider2
+{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100;
+}
+
+.username
+{
+  width:30%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin-top: 10px;
+  margin-left: 7.5%;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+}
+
+.username:focus{
+  border-color:#ff9a00;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  box-shadow:0 0 8px 0 #ff9a00;
+  transition: .3s;
+}
+
+.password
+{
+  width:30%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin-top: 10px;
+  margin-left: 7.5%;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+}
+
+.password:focus{
+  border-color:#ff9a00;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  box-shadow:0 0 8px 0 #ff9a00;
+  transition: .3s;
+}
+
+div.divider3
+{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 3%;
+}
+
+div.botsettings
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 9%;
+  margin-right: 15%;
+  margin-top: -3%;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+.advanced {
+  width:35%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border:2px solid #aaa;
+  border-radius:4px;
+  outline:none;
+  float: left;
+  margin-bottom: 0%;
+  padding: 16px 32px;
+  transition-duration: 0.4s;
+  box-sizing:border-box;
+  cursor: pointer;
+}
+
+.advanced {
+  background-color: transparent;
+  color: #b6b6b6;
+  border: 2px solid #ff7400;
+}
+
+.advanced:hover {
+  background-color: #ff7400;
+  color: white;
+}
+
+div.divider4
+{
+  width: 85%;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.speed
+{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+  margin-top: -5px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+/*  Speed Slider */
+
+.speedinput {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.speedslider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 50%; /* Full-width */
+  height: 15px;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  float: left;
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.speedslider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.speedslider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px;
+  border-radius: 50%;
+  background: #ff7400; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.speedslider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px;
+  border-radius: 50%;
+  background: #ff7400; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.myspeeddisplay {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-left: 10px;
+  margin-top: -5px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+div.accuracy
+{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  margin-left: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+/*  Accuracy Slider */
+
+.accuracyinput {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.accuracyslider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 50%; /* Full-width */
+  height: 15px;
+  border-radius: 5px;
+  margin-left: 10%;
+  float: left;
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.accuracyslider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.accuracyslider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px;
+  border-radius: 50%;
+  background: #ff7400; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.accuracyslider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px;
+  border-radius: 50%;
+  background: #ff7400; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.myaccuracydisplay {
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  clear: right;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+div.racenumber
+{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  margin-left: 10%;
+  margin-bottom: -20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+.racenum
+{
+  width:15%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 5%;
+  float: left;
+  margin-bottom: 20px;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+}
+
+.racenum:focus{
+  border-color:#ff9a00;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  box-shadow:0 0 8px 0 #ff9a00;
+  transition: .3s;
+}
+
+div.nitros
+{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 30%;
+  margin-top: -14.2%;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #b6b6b6;
+}
+
+div.nitroselect
+{
+  margin-left: 60%;
+  clear: none;
+  margin-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.startrace {
+  width:80%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin-top: 10px;
+  margin-left: 10%;
+  outline:none;
+  padding: 16px 32px;
+  transition-duration: 0.4s;
+  box-sizing:border-box;
+  cursor: pointer;
+}
+
+.startrace {
+  background-color: transparent;
+  color: #b6b6b6;
+  border: 2px solid #ff7400;
+}
+
+.startrace:hover {
+  background-color: #ff7400;
+  color: white;
+}
+
+
+
+
+
+
+div.selectfile
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .75em;
+  color: #b6b6b6;
+}
+
