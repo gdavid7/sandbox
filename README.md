@@ -36,7 +36,7 @@ Step 2: Install the libraries and run Sandbox_v3.py
 
 When you open the program up, a graphical interface will appear.
 
-![Image of graphical](https://github.com/gdavid7/sandboxPP/blob/master/photos/Sandbox%20Screenshot.PNG)
+![Image of graphical](https://github.com/gdavid7/sandbox/blob/master/pictures/Sandbox%20Screenshot.png)
 
 Username: Your account username
 
