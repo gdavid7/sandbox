@@ -31,7 +31,7 @@ Windows:
 
 Step 1: Download the files
 
-Step 2: In the excecutable folder, run Sandbox for Windows.
+Step 2: In the executable folder, run Sandbox for Windows.
 
 ## Usage example
 
