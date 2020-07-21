@@ -58,3 +58,6 @@ Accuracy: How accurate you want the bot to be (percentage)
 Nitros: (True / False / Random) True = Use Nitros, False = Dont use nitros, Random = Random chance that you will use Nitros.
 
 If you use Nitros, the bot will automatically use the Nitro on the biggest word.
+
+You will see text when the bot starts racing, similar to below:
+![](https://github.com/gdavid7/sandbox/blob/master/pictures/botRacing.PNG)
