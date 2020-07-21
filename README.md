@@ -31,7 +31,14 @@ Windows:
 
 Step 1: Download the files
 
-Step 2: Install the libraries and run Sandbox_v3.py
+Step 2: Download [python 3.5+](https://www.python.org)
+
+Step 3: Install the libraries via pip:
+```
+pip install eel requests websocket_client
+```
+Step 4: Run Sandbox_v3.py
+
 ## Usage example
 
 When you open the program up, a graphical interface will appear.
