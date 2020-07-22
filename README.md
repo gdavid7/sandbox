@@ -27,7 +27,7 @@ requests
 ```
 ## Installation
 
-Windows:
+Windows: Watch the video: https://www.youtube.com/watch?v=lzDW9sUF5W4
 
 Step 1: Download the files
 
