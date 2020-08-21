@@ -29,7 +29,9 @@ requests
 
 Windows: Watch the video: https://www.youtube.com/watch?v=lzDW9sUF5W4
 
-Step 1: Download the files
+Step 1: Download the file
+
+![](https://github.com/gdavid7/sandbox/blob/master/pictures/Capture.PNG)
 
 Step 2: In the executable folder, run Sandbox for Windows.
 
