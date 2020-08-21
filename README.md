@@ -27,13 +27,13 @@ requests
 ```
 ## Installation
 
-Windows: Watch the video: https://www.youtube.com/watch?v=lzDW9sUF5W4
+Windows: Watch the video: https://www.youtube.com/watch?v=lzDW9sUF5W4 OR follow the instructions below.
 
-Step 1: Download the file
+Step 1: Download the file: https://github.com/gdavid7/sandbox/blob/master/Executables/Sandbox%20%5BWindows%5D.exe
 
 ![](https://github.com/gdavid7/sandbox/blob/master/pictures/Capture.PNG)
 
-Step 2: In the executable folder, run Sandbox for Windows.
+Step 2: After downloading, save the file to a place on your computer and run it. The bot will open.
 
 ## Usage example
 
