@@ -1,3 +1,7 @@
+EDIT: This bot is now patched. Please start typing legitimately!
+
+
+
 
 ![Image of graphical](https://github.com/gdavid7/sandbox/blob/master/pictures/Sandbox%20LOGO.jpg)
 > Program for automated typing.
